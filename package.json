@@ -1,21 +1,13 @@
 {
   "name": "n8n-railway-custom",
   "version": "1.0.0",
-  "description": "n8n with Puppeteer dependencies for Railway",
   "scripts": {
-    "start": "n8n start",
-    "build": "echo 'Build completed'",
-    "postinstall": "echo 'Dependencies installed successfully'"
+    "start": "npx n8n start"
   },
   "dependencies": {
     "n8n": "latest",
-    "puppeteer": "^21.0.0",
-    "puppeteer-core": "^21.0.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-user-preferences": "^2.4.1",
     "puppeteer-extra-plugin-stealth": "^2.11.2"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }
